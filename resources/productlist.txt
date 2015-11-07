@@ -1,0 +1,7 @@
+Fo		6		10.00
+Banana		11		9.00
+Mango		7		12.00
+Santol		5		5.00
+Guava		13		3.00
+Atis		20		2.00
+Apple		23		12.00
