@@ -1,4 +1,7 @@
 *.class
+/out
+/.idea
+shopping-cart-text-version.iml
 
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
