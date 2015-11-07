@@ -27,7 +27,7 @@ public class ShoppingCartServiceImpl implements ShoppingCartService {
     }
 
     @Override
-    public List<String> getShoppCartList() {
-        return dummyDao.getShoppCartList();
+    public List<String> getShopCartList() {
+        return dummyDao.getShopCartList();
     }
 }

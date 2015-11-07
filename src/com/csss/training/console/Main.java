@@ -78,7 +78,7 @@ public class Main {
 
     private void showShoppingCart() {
         int counter = 1;
-        if(!(isShoppCartEmpty(serviceImpl.getShoppCartList()))) {
+        if(!(isShoppCartEmpty(serviceImpl.getShopCartList()))) {
             System.out.println("\n=====================================================");
             System.out.println("Shopping Cart");
             System.out.println("-----------------------------------------------------");
@@ -87,7 +87,7 @@ public class Main {
             BigDecimal total = BigDecimal.ZERO;
             BigDecimal total1 = BigDecimal.ZERO;
             String []splitData;
-            for(String s : serviceImpl.getShoppCartList()) {
+            for(String s : serviceImpl.getShopCartList()) {
                 splitData = s.split("\t\t");
                 total1 = (new BigDecimal(splitData[2]).multiply(new BigDecimal(splitData[1])));
                 total = total.add(total1);

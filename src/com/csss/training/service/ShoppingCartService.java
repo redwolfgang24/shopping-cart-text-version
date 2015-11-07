@@ -8,6 +8,6 @@ import java.util.List;
  */
 public interface ShoppingCartService {
     public List<String> getProductList();
-    public List<String> getShoppCartList();
+    public List<String> getShopCartList();
     public void purchasedProduct(int number, int quantity) throws IOException;
 }

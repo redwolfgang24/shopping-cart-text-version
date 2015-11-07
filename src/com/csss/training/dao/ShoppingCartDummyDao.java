@@ -73,7 +73,7 @@ public class ShoppingCartDummyDao implements ShoppingCartDao {
     }
 
     @Override
-    public List<String> getShoppCartList() {
+    public List<String> getShopCartList() {
         return fileDataShoppCart;
     }
 }

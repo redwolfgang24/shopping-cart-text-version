@@ -9,5 +9,5 @@ import java.util.List;
 public interface ShoppingCartDao {
     public void purchasedProduct(int prodNumber, int prodQuantity) throws IOException;
     public List<String> getProductList();
-    public List<String> getShoppCartList();
+    public List<String> getShopCartList();
 }
